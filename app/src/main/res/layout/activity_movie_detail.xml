@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieDetail">
+    <ImageView
+        android:id="@+id/imgPoster"
+        android:layout_width="175dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="@dimen/standard"
+        android:layout_marginLeft="@dimen/standard"/>
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="Title: "
+        android:textSize="@dimen/textSize"
+        android:layout_toRightOf="@+id/imgPoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard"
+        android:layout_marginLeft="@dimen/standard"
+        android:layout_marginRight="@dimen/standard"/>
+    <TextView
+        android:id="@+id/tvYear"
+        android:text="Year: "
+        android:textSize="@dimen/textSize"
+        android:layout_below="@+id/tvTitle"
+        android:layout_toRightOf="@+id/imgPoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard"
+        android:layout_marginLeft="@dimen/standard"
+        android:layout_marginRight="@dimen/standard"/>
+    <TextView
+        android:id="@+id/tvRated"
+        android:text="Rated: "
+        android:textSize="@dimen/textSize"
+        android:layout_below="@+id/tvYear"
+        android:layout_toRightOf="@+id/imgPoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard"
+        android:layout_marginLeft="@dimen/standard"
+        android:layout_marginRight="@dimen/standard"/>
+    <TextView
+        android:id="@+id/tvReleased"
+        android:text="Released: "
+        android:textSize="@dimen/textSize"
+        android:layout_below="@+id/tvRated"
+        android:layout_toRightOf="@+id/imgPoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard"
+        android:layout_marginLeft="@dimen/standard"
+        android:layout_marginRight="@dimen/standard"/>
+    <TextView
+        android:id="@+id/tvRuntime"
+        android:text="Runtime: "
+        android:textSize="@dimen/textSize"
+        android:layout_below="@+id/tvReleased"
+        android:layout_toRightOf="@+id/imgPoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard"
+        android:layout_marginLeft="@dimen/standard"
+        android:layout_marginRight="@dimen/standard"/>
+    <TextView
+        android:id="@+id/tvGenre"
+        android:text="Genre: "
+        android:textSize="@dimen/textSize"
+        android:layout_below="@+id/tvRuntime"
+        android:layout_toRightOf="@+id/imgPoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard"
+        android:layout_marginLeft="@dimen/standard"
+        android:layout_marginRight="@dimen/standard"/>
+    <TextView
+        android:id="@+id/tvDirector"
+        android:text="Director: "
+        android:textSize="@dimen/textSize"
+        android:layout_below="@+id/imgPoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard"
+        android:layout_marginLeft="@dimen/standard"
+        android:layout_marginRight="@dimen/standard"/>
+    <TextView
+        android:id="@+id/tvWriter"
+        android:text="Writer: "
+        android:textSize="@dimen/textSize"
+        android:layout_below="@+id/tvDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard"
+        android:layout_marginLeft="@dimen/standard"
+        android:layout_marginRight="@dimen/standard"/>
+    <TextView
+        android:id="@+id/tvActors"
+        android:text="Actors: "
+        android:textSize="@dimen/textSize"
+        android:layout_below="@+id/tvWriter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard"
+        android:layout_marginLeft="@dimen/standard"
+        android:layout_marginRight="@dimen/standard"/>
+    <TextView
+        android:id="@+id/tvPlot"
+        android:text="Plot: "
+        android:textSize="@dimen/textSize"
+        android:layout_below="@+id/tvActors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard"
+        android:layout_marginLeft="@dimen/standard"
+        android:layout_marginRight="@dimen/standard"/>
+
+</RelativeLayout>
+</ScrollView>
